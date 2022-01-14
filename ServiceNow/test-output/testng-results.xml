@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-14T22:22:38 SGT" name="Suite" finished-at="2022-01-14T22:26:21 SGT" duration-ms="223640">
+    <groups>
+    </groups>
+    <test started-at="2022-01-14T22:22:38 SGT" name="Test" finished-at="2022-01-14T22:26:21 SGT" duration-ms="223640">
+      <class name="testcases.DeleteIncidentTC">
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.DeleteIncidentTC@53aac487]" started-at="2022-01-14T22:22:38 SGT" name="setData" finished-at="2022-01-14T22:22:38 SGT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.DeleteIncidentTC@53aac487]" started-at="2022-01-14T22:23:54 SGT" name="preCondition" finished-at="2022-01-14T22:24:11 SGT" duration-ms="17000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runDeleteIncident(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.DeleteIncidentTC@53aac487]" started-at="2022-01-14T22:24:11 SGT" name="runDeleteIncident" data-provider="sendData" finished-at="2022-01-14T22:24:47 SGT" duration-ms="35579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Servicenow@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INC0010030]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDeleteIncident -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.DeleteIncidentTC@53aac487]" started-at="2022-01-14T22:24:47 SGT" name="postCondition" finished-at="2022-01-14T22:24:47 SGT" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.DeleteIncidentTC -->
+      <class name="testcases.VerifyLogin">
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.VerifyLogin@59505b48]" started-at="2022-01-14T22:22:38 SGT" name="setData" finished-at="2022-01-14T22:22:38 SGT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.VerifyLogin@59505b48]" started-at="2022-01-14T22:22:38 SGT" name="preCondition" finished-at="2022-01-14T22:22:58 SGT" duration-ms="19723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runLogin(java.lang.String,java.lang.String)[pri:0, instance:testcases.VerifyLogin@59505b48]" started-at="2022-01-14T22:22:59 SGT" name="runLogin" data-provider="sendData" finished-at="2022-01-14T22:23:13 SGT" duration-ms="14344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Servicenow@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.VerifyLogin@59505b48]" started-at="2022-01-14T22:23:13 SGT" name="postCondition" finished-at="2022-01-14T22:23:13 SGT" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.VerifyLogin -->
+      <class name="testcases.UpdateIncidentTC">
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.UpdateIncidentTC@52b1beb6]" started-at="2022-01-14T22:22:38 SGT" name="setData" finished-at="2022-01-14T22:22:38 SGT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.UpdateIncidentTC@52b1beb6]" started-at="2022-01-14T22:24:47 SGT" name="preCondition" finished-at="2022-01-14T22:25:00 SGT" duration-ms="12953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runUpdateIncident(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.UpdateIncidentTC@52b1beb6]" started-at="2022-01-14T22:25:00 SGT" name="runUpdateIncident" data-provider="sendData" finished-at="2022-01-14T22:25:31 SGT" duration-ms="31739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Servicenow@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INC0000040]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runUpdateIncident -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.UpdateIncidentTC@52b1beb6]" started-at="2022-01-14T22:25:31 SGT" name="postCondition" finished-at="2022-01-14T22:25:32 SGT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.UpdateIncidentTC -->
+      <class name="testcases.CreateIncidentTC">
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.CreateIncidentTC@54e1c68b]" started-at="2022-01-14T22:22:38 SGT" name="setData" finished-at="2022-01-14T22:22:38 SGT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.CreateIncidentTC@54e1c68b]" started-at="2022-01-14T22:23:13 SGT" name="preCondition" finished-at="2022-01-14T22:23:27 SGT" duration-ms="14058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runCreateIncident(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.CreateIncidentTC@54e1c68b]" started-at="2022-01-14T22:23:27 SGT" name="runCreateIncident" data-provider="sendData" finished-at="2022-01-14T22:23:54 SGT" duration-ms="26678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Servicenow@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Calls not going]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateIncident -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.CreateIncidentTC@54e1c68b]" started-at="2022-01-14T22:23:54 SGT" name="postCondition" finished-at="2022-01-14T22:23:54 SGT" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.CreateIncidentTC -->
+      <class name="testcases.AssignIncidentTC">
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.AssignIncidentTC@273e7444]" started-at="2022-01-14T22:22:38 SGT" name="setData" finished-at="2022-01-14T22:22:38 SGT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.AssignIncidentTC@273e7444]" started-at="2022-01-14T22:25:32 SGT" name="preCondition" finished-at="2022-01-14T22:25:48 SGT" duration-ms="16711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runAssignIncident(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AssignIncidentTC@273e7444]" started-at="2022-01-14T22:25:48 SGT" name="runAssignIncident" data-provider="sendData" finished-at="2022-01-14T22:26:21 SGT" duration-ms="33015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Servicenow@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INC0000040]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Software]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[on hold]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAssignIncident -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.AssignIncidentTC@273e7444]" started-at="2022-01-14T22:26:21 SGT" name="postCondition" finished-at="2022-01-14T22:26:21 SGT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.AssignIncidentTC -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
